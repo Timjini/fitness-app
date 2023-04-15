@@ -1,0 +1,72 @@
+<header>
+<%= stylesheet_link_tag "home" %>
+</header>
+<div class="jumbotron jumbotron-fluid">
+            <div class="container hero">
+            <h1 class="display-4">FIT LIFE</h1>
+            <p class="lead">Workout daily and stay in shape.</p>
+            <hr class="my-4">
+            <p>Exercising is great for health, so make sure that you do the right choice every day.</p>
+            <p class="lead">
+              <%= link_to 'Start Now', new_user_registration_path, class:"nav-link text-white btn btn-primary m-1 p-2",style:"background-color:#ed0b6b; border: 0px; width:20%;" %>
+            </p>
+        </div>
+          </div>
+          <main class="bg-dark">
+          <div class="container p-5 " id="main_activities">
+              <div class="row">
+                  <div class="col-sm-12 col-md-6 col-lg-3 p-2 div-workout">
+                    <%= link_to image_tag("workout-1.png"), activities_new_path  %>  
+                      <h6 class="text-center text-white">Tobata Workout</h6>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-3 div-workout p-2">
+                    <%= link_to image_tag("workout-2.png"), activities_new_path %>   
+                    <h6 class="text-center text-white">Weightlifting</h6>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 div-workout  p-2">
+                <%= link_to  image_tag("workout-3.png"), activities_new_path %>                    
+                    <h6 class="text-center text-white">Crunches</h6>
+                </div>
+                <div class="col-sm-12 col-md-6  col-lg-3 div-workout p-2">
+                    <%= link_to image_tag("workout-4.png"), activities_new_path %>   
+                    <h6 class="text-center text-white">Running</h6>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-3 div-workout p-2">
+                    <%= link_to image_tag("workout-5.png"), activities_new_path %>   
+                    <h6 class="text-center text-white">Endurance Training</h6>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 div-workout p-2">
+                  <%= link_to image_tag("workout-6.png"), activities_new_path %>   
+                  <h6 class="text-center text-white">Hoop Workout</h6>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3 div-workout p-2">
+                  <%= link_to image_tag("workout-7.png"), activities_new_path %>   
+                  <h6 class="text-center text-white">Stretching Exercises</h6>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3 div-workout p-2">
+                  <%= link_to image_tag("workout-8.png"), activities_new_path %>   
+                  <h6 class="text-center text-white">Squat Workout</h6>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-3  div-workout p-2">
+                    <%= link_to image_tag("workout-9.png"), activities_new_path %>   
+                    <h6 class="text-center text-white">Jogging</h6>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3  div-workout p-2">
+                  <%= link_to image_tag("workout-10.png"), activities_new_path %>   
+                  <h6 class="text-center text-white">Stability Ball Workout</h6>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3  div-workout p-2">
+                  <%= link_to image_tag("workout-11.png"), activities_new_path %>   
+                  <h6 class="text-center text-white">Yoga</h6>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3  div-workout p-2">
+                  <%= link_to image_tag("workout-12.png"), activities_new_path %>   
+                  <h6 class="text-center text-white">Strength Training</h6>
+              </div>
+            </div>
+          </div>
+        </main>

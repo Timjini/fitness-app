@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  description: MyString
+  state: 
+  created: 2021-11-16 09:57:32
+  finished: 2021-11-16 09:57:32
+  deleted_at: 2021-11-16 09:57:32
+
+two:
+  title: MyString
+  description: MyString
+  state: 
+  created: 2021-11-16 09:57:32
+  finished: 2021-11-16 09:57:32
+  deleted_at: 2021-11-16 09:57:32

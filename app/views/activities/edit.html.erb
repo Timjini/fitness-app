@@ -1,0 +1,9 @@
+<div class="jumbotron jumbotron-fluid" style="margin-top:-30px">
+  <div class="container">
+    <h1 class="display-4">Editing Activity</h1>
+    <div class="container pb-5">
+    <%= render 'form', activity: @activity %>
+<%= link_to 'Delete', @activity, method: :delete, data: { confirm: 'Are you sure?' }, class:"btn btn-outline-danger ml-5"%> 
+</div>
+  </div>
+

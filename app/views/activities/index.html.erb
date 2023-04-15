@@ -1,0 +1,35 @@
+<div class="jumbotron jumbotron-fluid" style="margin-top:-30px">
+  <div class="container">
+    <h1 class="display-4">Activities</h1>
+    <p class="lead">Somtimes a workout is all the therapy you need.</p>
+  </div>
+</div>
+<div class="container p-5">
+<table class="table table-striped table-dark">
+  <thead>
+    <tr>
+      <th>My Activities</th>
+      <th>State</th>
+      <th ></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @activities.each do |activity| %>
+      <% if activity.user == current_user%>
+      <tr>
+        <td><%= link_to activity.title, activity %></td>
+        <td><%= activity.state %></td>
+        <td><%#= activity.created %></td>
+        <td><%#= activity.finished %></td>
+        <td><%= activity.deleted_at %></td>
+        <td><%= link_to 'Delete', activity, method: :delete, data: { confirm: 'Are you sure?' }, class:'btn btn-outline-danger' %></td>
+      </tr>
+      <% end%>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+<%= link_to 'New Activity', new_activity_path , class:"btn btn-secondary" %>
+</div>

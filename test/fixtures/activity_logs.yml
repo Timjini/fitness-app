@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: MyString
+  browser: MyString
+  ip_address: MyString
+  controller: 
+  action: MyString
+  params: MyString
+  note: MyString
+  created_at: 2021-11-21 00:27:53
+  updated_at: 2021-11-21 00:27:53
+
+two:
+  user_id: MyString
+  browser: MyString
+  ip_address: MyString
+  controller: 
+  action: MyString
+  params: MyString
+  note: MyString
+  created_at: 2021-11-21 00:27:53
+  updated_at: 2021-11-21 00:27:53

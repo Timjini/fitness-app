@@ -1,0 +1,67 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+
+  }
+.workout {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.card {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.jumbotron{
+  background-image:linear-gradient(rgba(163, 74, 74, 0.3), rgba(0, 0, 0, 0.3)), url(/assets/banner.jpg);
+  width: 100vw;
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: -30px;
+  background-attachment: fixed;
+}
+.hero {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.navbar-toggler {
+}
+
+
+.div-workout:hover {
+  background-color: #ed0b6b;
+  border-radius: 5px;
+  transform: scale(1.1);
+}
+main {
+  background-color: #949f9f;
+  margin-top: -35px;
+} 
+
+.btn:hover {
+  transform: scale(1.1);
+  background-color:#242424;
+}
+a {
+  text-decoration: none;
+}
+
+img {
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+

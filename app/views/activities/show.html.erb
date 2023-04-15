@@ -1,0 +1,15 @@
+
+<div class="jumbotron jumbotron-fluid" style="margin-top:-30px">
+  <div class="container">
+    <h1 class="display-4"><%= @activity.title %></h1>
+    <h2 class="display-6"><%= @activity.state %></h2>
+    <br>
+    <%= link_to 'Edit', edit_activity_path(@activity),class:"btn btn-info" %> 
+<%= link_to 'Delete', @activity, method: :delete, data: { confirm: 'Are you sure?' }, class:"btn btn-danger" %> 
+<%= link_to 'Back', activities_path, class:"btn btn-secondary" %>
+  </div>
+</div>
+<div class="container p-5">
+
+
+</div>
