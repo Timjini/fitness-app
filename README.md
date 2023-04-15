@@ -4,7 +4,7 @@
 - Sign up and login page
 - Scaffold to create and edit activities
 
-<img src="[https://devhl.dev/_next/image?url=https%3A%2F%2Fmedia.graphassets.com%2FEJWgv9XzSdSWebTKEOkG&w=640&q=75](https://raw.githubusercontent.com/Timjini/fitness-app/main/app/assets/images/fitnessapp.png)" alt="fitness app" />
+<img src="https://raw.githubusercontent.com/Timjini/fitness-app/main/app/assets/images/fitnessapp.png" alt="fitness app" />
 
 # Libraries used 
 - Authntication with Devise gem
